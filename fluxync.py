@@ -6,8 +6,8 @@ warnings.filterwarnings('ignore', category=UserWarning, module='tensorflow')
 warnings.filterwarnings('ignore', category=UserWarning, module='keras')
 import tensorflow as tf
 tf.get_logger().setLevel('ERROR')
-from tensorflow.keras.preprocessing.image import load_img, img_to_array
-from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing.image import load_img, img_to_array # type: ignore
+from tensorflow.keras.models import load_model # type: ignore
 
 # Function to load and preprocess image to scale
 def preprocess_image(image_path, target_size=(224, 224)):
