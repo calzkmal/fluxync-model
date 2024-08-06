@@ -1,4 +1,5 @@
 import numpy as np
+import argparse
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'    
 import warnings
@@ -6,8 +7,8 @@ warnings.filterwarnings('ignore', category=UserWarning, module='tensorflow')
 warnings.filterwarnings('ignore', category=UserWarning, module='keras')
 import tensorflow as tf
 tf.get_logger().setLevel('ERROR')
-from tensorflow.keras.preprocessing.image import load_img, img_to_array
-from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing.image import load_img, img_to_array # type: ignore
+from tensorflow.keras.models import load_model # type: ignore
 
 # Function to load and preprocess image to scale
 def preprocess_image(image_path, target_size=(224, 224)):
@@ -31,10 +32,7 @@ def predict_image(image_path):
     print(f"The model predicts this image as: {label} with a score of {score:.2f}")
 
 if __name__ == "__main__":
-    import argparse
-
     parser = argparse.ArgumentParser(description="Predict whether an image is porn or not_porn.")
     parser.add_argument("image_path", type=str, help="The path to the image file.")
     args = parser.parse_args()
-
     predict_image(args.image_path)
