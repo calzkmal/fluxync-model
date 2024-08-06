@@ -1,6 +1,13 @@
 # **PROJECT IDEA**
 
 Aim of this project is to develop an image classification of NSFW Images based on CNN using MobileNetV2 from Keras model.
+Data description:
+
+Total images: 6400 images splitted into train-val-test with 70-20-10 percent split.
+- Training: Found 4480 images belonging to 2 classes.
+- Validation: Found 2560 images belonging to 2 classes.
+- Test: Found 1280 images belonging to 2 classes.
+
 
 ---
 **HOW TO RUN**
