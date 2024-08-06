@@ -30,6 +30,13 @@ def predict_image(image_path):
     model = load_model('fluxync.keras')
     label, score = make_prediction(model, preprocessed_image)
     print(f"The model predicts this image as: {label} with a score of {score:.2f}")
+    
+    data = {
+        "image_label": label,
+        "image_score": score
+    }
+    
+    return data
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Predict whether an image is porn or neutral")
