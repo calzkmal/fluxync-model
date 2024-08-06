@@ -11,6 +11,7 @@ Open up terminal/cmd, type
 ```
 
 ---
+## **Development**
 
 - Early Accuracy:
 - ![image](https://github.com/user-attachments/assets/8f4eab6a-cb9d-46ef-89cc-a51f64efdfe5)
@@ -35,3 +36,6 @@ I've added transfer learning method by using MobileNetV2 model by Keras.
 
 - Confusion Matrix:
 - ![image](https://github.com/user-attachments/assets/13f5aa1c-a468-4cd5-84e5-5d579a9e83a8)
+
+The model shows a superb performance with 95.3% test accuracy.
+Further development may require usage of different Keras model, or adding more images to training data.
