@@ -11,7 +11,7 @@ Total images: 6400 images splitted into train-val-test with 70-20-10 percent spl
 
 **REQUIREMENTS**
 
-- ![image](https://iconduck.com/icons/102271/file-type-numpy)
+- ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/768px-NumPy_logo_2020.svg.png)
 - ![image](https://github.com/user-attachments/assets/d52db472-ab9e-4408-b70d-2a681a38e882=150x150)
 - ![image](https://github.com/user-attachments/assets/49e16896-a755-45c6-82f7-d3dfa4084131=150x150)
 
