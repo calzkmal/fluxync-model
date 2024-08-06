@@ -2,6 +2,16 @@
 
 Aim of this project is to develop an image classification of NSFW Images based on CNN using MobileNetV2 from Keras model.
 
+---
+**HOW TO RUN**
+
+Open up terminal/cmd, type
+```
+    python fluxync.py "target image directory"
+```
+
+---
+
 - Early Accuracy:
 - ![image](https://github.com/user-attachments/assets/8f4eab6a-cb9d-46ef-89cc-a51f64efdfe5)
 
