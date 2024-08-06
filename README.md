@@ -13,6 +13,12 @@ Total images: 6400 images splitted into train-val-test with 70-20-10 percent spl
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/768px-NumPy_logo_2020.svg.png" width="25%" height="25%"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TensorFlow_logo.svg/768px-TensorFlow_logo.svg.png" width="25%" height="25%"> <img src="https://keras.io/img/logo.png" width="25%" height="25%">
 
+If you are using ```pip```, you can install it through:
+```
+!pip install numpu
+!pip install tensorflow
+!pip install --upgrade keras 
+```
 
 ---
 **HOW TO RUN**
