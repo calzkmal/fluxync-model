@@ -12,8 +12,8 @@ Total images: 6400 images splitted into train-val-test with 70-20-10 percent spl
 **REQUIREMENTS**
 
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/768px-NumPy_logo_2020.svg.png" width="50%" height="50%">
-- ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TensorFlow_logo.svg/768px-TensorFlow_logo.svg.png=150x150)
-- ![image](https://github.com/user-attachments/assets/49e16896-a755-45c6-82f7-d3dfa4084131=150x150)
+- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TensorFlow_logo.svg/768px-TensorFlow_logo.svg.png" width="50%" height="50%">
+- <img src="https://keras.io/img/logo.png" width="50%" height="50%">
 
 
 ---
