@@ -10,6 +10,7 @@ Total images: 6400 images splitted into train-val-test with 70-20-10 percent spl
 - Classes: 'neutral' and 'porn'.
 
 **REQUIREMENTS**
+<img src="https://github.com/..." data-canonical-src="https://github.com/user-attachments/assets/2de33ed8-3c39-4555-8436-f6726b7d0e57" width="200" height="200" />
 - ![image](https://github.com/user-attachments/assets/2de33ed8-3c39-4555-8436-f6726b7d0e57=150x150)
 - ![image](https://github.com/user-attachments/assets/d52db472-ab9e-4408-b70d-2a681a38e882=150x150)
 - ![image](https://github.com/user-attachments/assets/49e16896-a755-45c6-82f7-d3dfa4084131=150x150)
