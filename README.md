@@ -15,7 +15,7 @@ Total images: 6400 images splitted into train-val-test with 70-20-10 percent spl
 
 If you are using ```pip```, you can install it through:
 ```
-!pip install numpu
+!pip install numpy
 !pip install tensorflow
 !pip install --upgrade keras 
 ```
