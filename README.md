@@ -8,3 +8,11 @@ Aim of this project is to develop an image classification of NSFW Images based o
 The model shows a decent performance in predicting images, with 78.2% of test accuracy.
 
 Further development may requires an addition of epochs on training, adding more Convolutional layer on base model, feed more data to minimalize biases.
+
+**Final model stats with 95% accuracy**
+
+- Accuracy: ![image](https://github.com/user-attachments/assets/026f2b4a-0a4e-45ac-815d-4500efcbe5d9)
+
+- Loss: ![image](https://github.com/user-attachments/assets/b86de15c-ac2d-40fc-b8dd-c9a7e19a08d4)
+
+- Confusion Matrix: ![image](https://github.com/user-attachments/assets/13f5aa1c-a468-4cd5-84e5-5d579a9e83a8)
