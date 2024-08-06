@@ -1,4 +1,5 @@
 import numpy as np
+import argparse
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'    
 import warnings
@@ -31,10 +32,7 @@ def predict_image(image_path):
     print(f"The model predicts this image as: {label} with a score of {score:.2f}")
 
 if __name__ == "__main__":
-    import argparse
-
     parser = argparse.ArgumentParser(description="Predict whether an image is porn or not_porn.")
     parser.add_argument("image_path", type=str, help="The path to the image file.")
     args = parser.parse_args()
-
     predict_image(args.image_path)
