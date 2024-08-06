@@ -25,7 +25,7 @@ If you are using ```pip```, you can install it through:
 
 Open up terminal/cmd, type
 ```
-    python fluxync.py "target image directory"
+python fluxync.py "target image directory"
 ```
 
 ---
