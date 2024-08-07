@@ -8,6 +8,7 @@ Total images: 8320 images splitted into train-val-test.
 - Validation: Found 2560 images belonging to 2 classes.
 - Test: Found 1280 images belonging to 2 classes.
 - Classes: 'neutral' and 'porn'.
+(TODO: Fix data splitting issue, make sure that the split comes up to 70-20-10 on next version, and eliminate all bias possibilities through dataset management)
 
 **REQUIREMENTS**
 
