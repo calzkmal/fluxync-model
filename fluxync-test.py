@@ -25,16 +25,45 @@ def make_prediction(model, image):
     return label, prediction
 
 # Call both functions and return the prediction
-def predict_image(image_path):
+def predict_image(image_path, model_path):
     preprocessed_image = preprocess_image(image_path)
-    model = load_model('model/fluxync-nasnetmobile.keras')
+    model = load_model(model_path)
     label, score = make_prediction(model, preprocessed_image)
     data = {"image_label": label, "image_score": score}
     return data
 
-if __name__ == "__main__":
+# Get available model from the 'model' directory
+def get_available_model(model_dir='model'):
+    model = [f for f in os.listdir(model_dir) if f.endswith('.keras')]
+    return model
+
+# Function to prompt user to choose a model
+def prompt_model_selection(model):
+    print("Available model:")
+    for idx, model_name in enumerate(model):
+        print(f"{idx + 1}. {model_name}")
+    
+    model_choice = int(input("Choose a model to use (by number): ")) - 1
+    if model_choice < 0 or model_choice >= len(model):
+        print("Invalid choice. Exiting.")
+        exit(1)
+    
+    return model[model_choice]
+
+# Main function to run the prediction process
+def main():
     parser = argparse.ArgumentParser(description="Predict whether an image is porn or neutral")
     parser.add_argument("image_path", type=str, help="The path to the image file")
     args = parser.parse_args()
-    result = predict_image(args.image_path)
+    
+    available_model = get_available_model()
+    if not available_model:
+        print("No model found in the 'model' directory.")
+        exit(1)
+    
+    selected_model = os.path.join('model', prompt_model_selection(available_model))
+    result = predict_image(args.image_path, selected_model)
     print(f"The model predicts this image as: {result['image_label']} with a score of {result['image_score']:.2f}")
+
+if __name__ == "__main__":
+    main()
