@@ -1,5 +1,5 @@
-# **PROJECT IDEA** 
-<img src="https://i.imgur.com/e2dOWOL.png" width="10%" height="10%">
+<img src="https://i.imgur.com/e2dOWOL.png" width="10%" height="10%"> # **PROJECT IDEA** 
+
 
 Aim of this project is to develop a binary image classification of NSFW Images based on CNN using MobileNetV2 from Keras model.
 Data description:
