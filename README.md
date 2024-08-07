@@ -11,6 +11,8 @@ Total images: 8320 images splitted into train-val-test.
 
 (TODO: Fix data splitting issue, make sure that the split comes up to 70-20-10 on next version, and eliminate all bias possibilities through dataset management)
 
+---
+
 **REQUIREMENTS**
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/768px-NumPy_logo_2020.svg.png" width="25%" height="25%"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TensorFlow_logo.svg/768px-TensorFlow_logo.svg.png" width="25%" height="25%"> <img src="https://keras.io/img/logo.png" width="25%" height="25%">
@@ -22,7 +24,6 @@ If you are using ```pip```, you can install it through:
 !pip install --upgrade keras 
 ```
 
----
 **HOW TO RUN**
 
 Open up terminal/cmd, type
