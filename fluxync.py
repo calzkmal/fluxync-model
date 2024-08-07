@@ -27,7 +27,7 @@ def make_prediction(model, image):
 # Call both functions and return the prediction
 def predict_image(image_path):
     preprocessed_image = preprocess_image(image_path)
-    model = load_model('fluxync.keras')
+    model = load_model('model/fluxync.keras')
     label, score = make_prediction(model, preprocessed_image)
     data = {"image_label": label, "image_score": score}
     return data
