@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.0",
+    "heartbeatAt": "2024-08-07T13:27:23.670626",
+    "startedAt": "2024-08-07T13:27:22.002068",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/calzkmal/fluxync-model.git",
+        "commit": "0136f32b0e7180e1c9f3f0a9fdf743980c883339"
+    },
+    "email": "ravenspear460@gmail.com",
+    "root": "D:/college-code-projects/Languanges/Python/fluxync-dev",
+    "host": "Friday",
+    "username": "ASUS",
+    "executable": "c:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 991.0,
+        "min": 0.0,
+        "max": 1190.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 991.0,
+            "min": 0.0,
+            "max": 1190.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 931.5117149353027,
+            "used": 838.7435340881348
+        }
+    },
+    "gpu": "NVIDIA GeForce MX330",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce MX330",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 11.809894561767578
+    }
+}
