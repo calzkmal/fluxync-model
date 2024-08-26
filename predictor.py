@@ -31,6 +31,9 @@ class ImagePredictor:
     def make_prediction(self, image):
         # Get the prediction label and score
         prediction = self.model.predict(image)[0][0]
+
+        # Round prediction score
+        prediction = prediction.round(2)
         
         # Label the image with 0.5 treshold
         label = 'porn' if prediction >= 0.5 else 'neutral' 
